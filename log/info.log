@@ -1,0 +1,10 @@
+2021-01-27 20:11:10 INFO  Payment:15 - Hello world
+2021-01-27 20:11:10 INFO  Payment:16 - we are in logger info mode
+2021-01-27 20:11:42 INFO  Payment:23 - Water{customerNumber='nika', amount=23.5}
+2021-01-27 20:11:42 INFO  Payment:24 - Electricity{customerNumber='nika', amount=123.3}
+2021-01-27 20:11:57 INFO  Payment:22 - Water{customerNumber='nika', amount=23.5}
+2021-01-27 20:11:57 INFO  Payment:23 - Electricity{customerNumber='nika', amount=123.3}
+2021-01-27 20:12:34 INFO  Payment:22 - Water{customerNumber='nika', amount=23.5}
+2021-01-27 20:12:34 INFO  Payment:23 - Electricity{customerNumber='nika', amount=123.3}
+2021-01-27 20:13:33 INFO  Payment:22 - Water{customerNumber='nika', amount=23.5}
+2021-01-27 20:14:07 INFO  Payment:22 - კომუნალური გადახდილია Water{customerNumber='nika', amount=23.5}
