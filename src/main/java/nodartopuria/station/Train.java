@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Train {
 
-	List<Passenger> passengerList = new ArrayList<>();
+	private List<Passenger> passengerList = new ArrayList<>();
 
 	public void addPassenger(Passenger passenger){
 		if (passenger.haveTicket()){
@@ -14,6 +14,10 @@ public class Train {
 		}else{
 			System.out.println(passenger.getName()+" You Shall not Pass!!");
 		}
+	}
+
+	public List<Passenger> getPassengerList(){
+		return passengerList;
 	}
 
 }

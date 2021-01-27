@@ -13,8 +13,8 @@ public class Station {
 		train.addPassenger(nodar);
 		train.addPassenger(zura);
 
-		for (Passenger passenger:train.passengerList) {
-			System.out.println(passenger.getName());
+		for (Passenger passenger:train.getPassengerList()) {
+			System.out.println("Allowed Passenger: "+passenger.getName());
 		}
 	}
 
